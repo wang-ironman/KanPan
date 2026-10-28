@@ -1,0 +1,13 @@
+﻿<Application x:Class="KanPan.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility" />
+
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="14,5" />
+            <Setter Property="MinWidth" Value="80" />
+        </Style>
+    </Application.Resources>
+</Application>

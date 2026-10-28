@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KanPan.App/KanPan.App.csproj" />
+    <Project Path="src/KanPan.Core/KanPan.Core.csproj" />
+    <Project Path="src/KanPan.Infrastructure/KanPan.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KanPan.Tests/KanPan.Tests.csproj" />
+  </Folder>
+</Solution>
